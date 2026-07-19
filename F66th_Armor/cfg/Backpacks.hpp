@@ -489,6 +489,7 @@ class PB_M56S_Rucksack_Pebbles_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Spinny_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] SpinPack";
+    maximumLoad = 250000;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -539,7 +540,7 @@ class PB_M56S_Rucksack_Reaper_Radio : PB_M56S_Rucksack_Radio
 };
 class PB_M56S_Rucksack_Revan_Radio : PB_M56S_Rucksack_Radio
 {
-    displayName = "[F66th] Radio Revan";
+    displayName = "[F66th] Radio Croz";
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -549,9 +550,9 @@ class PB_M56S_Rucksack_Revan_Radio : PB_M56S_Rucksack_Radio
     };
     hiddenSelectionsTextures[] =
     {
-        "F66th_Armor\Hellwalkers\Backpacks\Revan_Backpack_CO.paa",
-        "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
-        "F66th_Armor\Hellwalkers\Backpacks\Revan_Backpack_CO.paa"
+        "F66th_Armor\Hellwalkers\Backpacks\XRevan_Backpack_CO.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Attachments\XBackpack_Radio_ODST_co.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\XRevan_Backpack_CO.paa"
     };
 };
 class PB_M56S_Rucksack_Chronos_Radio : PB_M56S_Rucksack_Radio

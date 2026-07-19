@@ -19,8 +19,10 @@ class XtdGearModels
                 {
                     "Ahriman",
                     "Blue",
+                    "BC",
                     "Cat",
                     "Chronos",
+                    "Revan",
                     "Fixer",
                     "Komoto",
                     "Navvaro",
@@ -29,6 +31,7 @@ class XtdGearModels
                     "Pebbles",
                     "Reaper",
                     "Spinny",
+                    "Takama",
                     "Trim",
                     "Wren"
                 };
@@ -40,6 +43,10 @@ class XtdGearModels
                 {
                     name = "Blue";
                 };
+                class PB_BC_Helmet
+                {
+                    name = "BC";
+                };
                 class PB_Cat_Helmet
                 {
                     name = "Cat";
@@ -47,6 +54,10 @@ class XtdGearModels
                 class PB_Chronos_Helmet
                 {
                     name = "Chronos";
+                };
+                class PB_Revan_Helmet
+                {
+                    name = "Revan";
                 };
                 class PB_Fixer_Helmet
                 {
@@ -80,6 +91,10 @@ class XtdGearModels
                 {
                     name = "Spinny";
                 };
+                class PB_Takama_Helmet
+                {
+                    name = "Takama";
+                };
                 class PB_Trim_Helmet
                 {
                     name = "Trim";
@@ -104,23 +119,35 @@ class XtdGearModels
                 values[] =
                 {
                     "Ahriman",
+                    "Bonecrusher",
                     "Chronos",
+                    "Revan",
                     "Fixer",
                     "Komoto",
                     "Nyquil",
                     "Pebbles",
                     "Reaper",
                     "Spinny",
+                    "Takama",
                     "Trim"
                 };
                 class PB_Ahriman
                 {
                     name = "Ahriman";
                 };
+                class PB_Bonecrusher
+                {
+                    name = "Bonecrusher";
+                };
                 class PB_Chronos
                 {
                     name = "Chronos";
                 };
+                class PB_Revan
+                {
+                    name = "Revan";
+                };
+
                 class PB_Fixer
                 {
                     name = "Fixer";
@@ -144,6 +171,10 @@ class XtdGearModels
                 class PB_Spinny
                 {
                     name = "Spinny";
+                };
+                class PB_Takama
+                {
+                    name = "Takama";
                 };
                 class PB_Trim
                 {
@@ -469,8 +500,7 @@ class XtdGearModels
                 {
                     "Marine",
                     "EVA",
-                    "ODST",
-                    "Marine"
+                    "ODST"
                 };
                 class PBxtd_EVA_Helmet_Leviathan
                 {
@@ -629,11 +659,21 @@ class XtdGearModels
                 values[] =
                 {
                     "ODST",
+                    "AA",
+                    "Commando",
                     "Marine"
                 };
                 class PBxtd_HRODST_Helmet_Mammon
                 {
                     label = "ODST";
+                };
+                class PBxtd_AA_Helmet_Mammon
+                {
+                    label = "AA";
+                };
+                class PBxtd_Commando_Helmet_Mammon
+                {
+                    label = "Commando";
                 };
                 class PBxtd_CH252_Helmet_Base_Mammon
                 {

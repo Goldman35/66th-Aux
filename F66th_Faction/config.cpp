@@ -17,6 +17,8 @@ class CfgPatches
 			"PB_Nightingale_Resupply",
 			"PB_Basilisk_155mm",
 			"PB_MBT",
+			"PB_CadianCentaur_Trim",
+			"PB_Orochi_WMS",
 		};
 		weapons[] = {};
 		requiredVersion = 1.62;

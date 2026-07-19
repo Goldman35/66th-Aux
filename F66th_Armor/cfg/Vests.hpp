@@ -1,7 +1,7 @@
 //F66th Vest cfg
 class V_PlateCarrier1_rgr;
 class VestItem;
-
+class MA_MKVB_Armor_Attachements;
 
 class PB_Vest_Base: V_PlateCarrier1_rgr
 {
@@ -741,12 +741,12 @@ class PB_Chronos_Sniper_Vest : PB_M56R_Vest
               //              "Reach_Forearm_Right",
                             "H3_Pauldron_Left",
                             "H3_Pauldron_Right",
-                            "Reach_Pauldron_Left",
-                            "Reach_Pauldron_Right",
-                            "Reach_Shoulder_Radio_Left",
-                            "Reach_Shoulder_Radio_Right",
-                            //              "Reach_Sniper_Pauldron_Left",
-                            //              "Reach_Sniper_Pauldron_Right",
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          "Reach_Shoulder_Radio_Right",
+                                          "Reach_Sniper_Pauldron_Left",
+                                          "Reach_Sniper_Pauldron_Right",
                                           "Reach_CQB_Pauldron_Left",
                                           "Reach_CQB_Pauldron_Right",
                                           "Thigh_Pouch",
@@ -760,6 +760,9 @@ class PB_Chronos_Sniper_Vest : PB_M56R_Vest
         };
     };
 };
+
+
+
 class PB_Fixer_M56R_Vest : PB_Vest_Base
 {
     scope = 2;
@@ -1139,22 +1142,22 @@ class PB_Revan_Sniper_Vest : PB_M56R_Vest
               //              "Reach_Forearm_Right",
                             "H3_Pauldron_Left",
                             "H3_Pauldron_Right",
-                            "Reach_Pauldron_Left",
-                            "Reach_Pauldron_Right",
-                            "Reach_Shoulder_Radio_Left",
-                            "Reach_Shoulder_Radio_Right",
-                            //              "Reach_Sniper_Pauldron_Left",
-                            //              "Reach_Sniper_Pauldron_Right",
-                                          "Reach_CQB_Pauldron_Left",
-                                          "Reach_CQB_Pauldron_Right",
-                                          "Thigh_Pouch",
-                                          "H3_Armor_Upper",
-                                          "H3_Armor_Lower",
-                                          //              "Reach_Armor_Upper",
-                                          //              "Reach_Armor_Lower",
-                                          //              "Forearm_Vent_Left",
-                                          //              "Forearm_Vent_Right",
-                                          //              "Canisters"
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          //              "Reach_Shoulder_Radio_Right",
+                                                        "Reach_Sniper_Pauldron_Left",
+                                                        "Reach_Sniper_Pauldron_Right",
+                                                        "Reach_CQB_Pauldron_Left",
+                                                        "Reach_CQB_Pauldron_Right",
+                                                        "Thigh_Pouch",
+                                                        "H3_Armor_Upper",
+                                                        "H3_Armor_Lower",
+                                                        //              "Reach_Armor_Upper",
+                                                        //              "Reach_Armor_Lower",
+                                                        //              "Forearm_Vent_Left",
+                                                        //              "Forearm_Vent_Right",
+                                                        //              "Canisters"
         };
     };
 };
@@ -1180,6 +1183,73 @@ class PB_Spinny_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Base\Canisters_CO.paa",      //camo6 (Canisters)
             "F66th_Armor\Hellwalkers\Vests\Base\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\CustomGear\Spinny\Spinny_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          "Reach_Shoulder_Radio_Right",
+                                          "Reach_Sniper_Pauldron_Left",
+                                          "Reach_Sniper_Pauldron_Right",
+                                          "Reach_CQB_Pauldron_Left",
+                                          "Reach_CQB_Pauldron_Right",
+                                          "Thigh_Pouch",
+                                          "H3_Armor_Upper",
+                                          "H3_Armor_Lower",
+                                          //              "Reach_Armor_Upper",
+                                          //              "Reach_Armor_Lower",
+                                          //              "Forearm_Vent_Left",
+                                          //              "Forearm_Vent_Right",
+                                          //              "Canisters"
+        };
+    };
+};
+class PB_Takama_M56R_Vest : PB_Vest_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Takama M56R Combat Armor";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Vests";
+        Variant = "Takama";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Base\H3_ODST\Custom\Takama_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\H3_ODST\Custom\Takama_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\H3_ODST\Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\CustomGear\Takama\Takama_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\CustomGear\Takama\Takama_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Base\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Base\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Base\Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Base\CQB_co.paa",  //camo9 (CQB Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
@@ -1290,6 +1360,330 @@ class PB_Trim_CQB_Vest : PB_M56R_Vest
                                           //              "Forearm_Vent_Right",
                                           //              "Canisters"
         };
+    };
+};
+
+
+class PB_Bonecrushed : V_PlateCarrier1_rgr
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "Chronos";
+    displayName = "Bonecrusher MKIV";
+    model = "MA_Armor\data\Vests\MKIV\MKIV_Armor.p3d";
+    picture = "";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2",
+        //	"mkvb_upper",
+        //	"mkvb_lower",
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\CustomGear\Bonecrusher\Bonecrusher_Upper.paa",
+        "F66th_Armor\Hellwalkers\CustomGear\Bonecrusher\Bonecrusher_Lower.paa"
+    };
+    class XtdGearInfo
+    {
+        model = "PB_Custom_Vests";
+        Variant = "Bonecrusher";
+    };
+    class ItemInfo : VestItem
+    {
+        vestType = "Rebreather";
+        hiddenSelections[] =
+        {
+            "camo1",
+            "camo2",
+            //	"mkvb_upper",
+            //	"mkvb_lower"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "MA_Armor\data\Vests\MKIV\MKIV_Upper_CO.paa",
+            "MA_Armor\data\Vests\MKIV\MKIV_Lower_CO.paa"
+        };
+        uniformModel = "MA_Armor\data\Vests\MKIV\MKIV_Armor.p3d";
+        containerClass = "Supply250";
+        mass = 20;
+        passThrough = 0.1;
+        modelSides[] = { 6 };
+        class HitpointsProtectionInfo
+        {
+            class Neck
+            {
+                hitpointName = "HitNeck";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Legs
+            {
+                hitpointName = "HitLegs";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Arms
+            {
+                hitpointName = "HitArms";
+                armor = 35;
+                passThrough = 0.1;
+            };
+            class Hands
+            {
+                hitpointName = "HitHands";
+                armor = 30;
+                passThrough = 0.1;
+            };
+            class Chest
+            {
+                hitpointName = "HitChest";
+                armor = 45;
+                passThrough = 0.1;
+            };
+            class Diaphragm
+            {
+                hitpointName = "HitDiaphragm";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Abdomen
+            {
+                hitpointName = "HitAbdomen";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Pelvis
+            {
+                hitpointName = "HitPelvis";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Body
+            {
+                hitpointName = "HitBody";
+                passThrough = 0.1;
+            };
+        };
+    };
+};
+class PB_SPI_Chronos : PB_Vest_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "Chronos";
+    displayName = "[F66th] SPI Armor (chronos)";
+    model = "MA_Armor\data\Vests\SPI\SPI_Armor.p3d";
+    mass = 20;
+    descriptionShort = "Semi-Powered Infiltration Armour";
+    picture = "";
+    hiddenSelections[] =
+    {
+        "camo"
+    };
+    hiddenSelectionsTextures[] =
+    {
+           "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_SPI_co.paa"
+    };
+    class ItemInfo : ItemInfo
+    {
+        containerClass = "Supply250";
+        mass = 20;
+        uniformModel = "MA_Armor\data\Vests\SPI\SPI_Armor.p3d";
+        hiddenSelections[] =
+        {
+            "camo"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_SPI_co.paa"
+        };
+        passThrough = 0.1;
+        modelSides[] = { 6 };
+        class HitpointsProtectionInfo
+        {
+            class Neck
+            {
+                hitpointName = "HitNeck";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Legs
+            {
+                hitpointName = "HitLegs";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Arms
+            {
+                hitpointName = "HitArms";
+                armor = 35;
+                passThrough = 0.1;
+            };
+            class Hands
+            {
+                hitpointName = "HitHands";
+                armor = 30;
+                passThrough = 0.1;
+            };
+            class Chest
+            {
+                hitpointName = "HitChest";
+                armor = 45;
+                passThrough = 0.1;
+            };
+            class Diaphragm
+            {
+                hitpointName = "HitDiaphragm";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Abdomen
+            {
+                hitpointName = "HitAbdomen";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Pelvis
+            {
+                hitpointName = "HitPelvis";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Body
+            {
+                hitpointName = "HitBody";
+                passThrough = 0.1;
+            };
+        };
+    };
+};
+class PB_Taco : V_PlateCarrier1_rgr
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "Chronos";
+    displayName = "[F66th] Taco MKV";
+    model = "MA_Armor\data\Vests\MKVB\MKVB_Armor.p3d";
+    picture = "";
+    hiddenSelections[] =
+    {
+        "camo1",
+        "camo2",
+        //	"mkvb_upper",
+        //	"mkvb_lower",
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\CustomGear\Takama\Takama_MKV_Upper_CO.paa",
+        "F66th_Armor\Hellwalkers\CustomGear\Takama\Takama_MKV_Lower_CO.paa"
+    };
+    class ItemInfo : VestItem
+    {
+        vestType = "Rebreather";
+        hiddenSelections[] =
+        {
+            "camo1",
+            "camo2",
+            //	"mkvb_upper",
+            //	"mkvb_lower"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "MA_Armor\data\Vests\MKV\MKV_Upper_CO.paa",
+            "MA_Armor\data\Vests\MKV\MKV_Lower_CO.paa"
+        };
+        uniformModel = "MA_Armor\data\Vests\MKVB\MKVB_Armor.p3d";
+        containerClass = "Supply250";
+        mass = 20;
+        passThrough = 0.1;
+        modelSides[] = { 6 };
+        class HitpointsProtectionInfo
+        {
+            class Neck
+            {
+                hitpointName = "HitNeck";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Legs
+            {
+                hitpointName = "HitLegs";
+                armor = 30;
+                passThrough = 0.5;
+            };
+            class Arms
+            {
+                hitpointName = "HitArms";
+                armor = 35;
+                passThrough = 0.1;
+            };
+            class Hands
+            {
+                hitpointName = "HitHands";
+                armor = 30;
+                passThrough = 0.1;
+            };
+            class Chest
+            {
+                hitpointName = "HitChest";
+                armor = 45;
+                passThrough = 0.1;
+            };
+            class Diaphragm
+            {
+                hitpointName = "HitDiaphragm";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Abdomen
+            {
+                hitpointName = "HitAbdomen";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Pelvis
+            {
+                hitpointName = "HitPelvis";
+                armor = 40;
+                passThrough = 0.1;
+            };
+            class Body
+            {
+                hitpointName = "HitBody";
+                passThrough = 0.1;
+            };
+        };
+    };
+};
+class PB_Taco_GC : MA_MKVB_Armor_Attachements
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "Chronos";
+    displayName = "[F666] Takama collar";
+    model = "MA_Armor\data\Vests\MKVB\Attachments\MKVB_Attachments.p3d";
+    identitytypes[] = {};
+    hiddenSelections[] =
+    {
+        "Camo1", // (Grenadier Chest)
+        "Camo2", // (Grenadier Collar)
+        "Camo3", // (ODST Chest)
+        "Camo4", // (Scout Vest)
+        "Camo5", // (Ordnance Pack)
+        //  "Grenadier_Collar",
+            "Grenadier_Chest",
+            "Odst_Chest",
+            "Scout_Chest",
+            "Ordnance_Pack"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "MA_Armor\data\Vests\MKVB\Attachments\Grenadier\Olive_Grenadier_Rig_CO.paa",
+        "F66th_Armor\Hellwalkers\CustomGear\Takama\Takama_Grenadier_Collar_CO.paa",
+        "MA_Armor\data\Vests\MKVB\Attachments\ODST\Olive_ODST_Chestplate_CO.paa",
+        "MA_Armor\data\Vests\MKVB\Attachments\Scout\Woodland_Scout_Vest_CO.paa",
+        "MA_Armor\data\Vests\MKVB\Attachments\Ordnance_Pack\MKVB_Ordnance_Pack_co.paa"
     };
 };
 

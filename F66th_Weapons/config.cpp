@@ -185,19 +185,8 @@ class cfgWeapons
 	};
 
 	class Launcher;
-	class Launcher_Base_F : Launcher
-	{
-		class WeaponSlotsInfo;
-	};
-	class launch_RPG7_F : Launcher_Base_F
-	{
-		class WeaponSlotsInfo : WeaponSlotsInfo
-		{
-			class CowsSlot;
-			class PointerSlot;
-		};
-	};
-	class PB_M57_Pilum : launch_RPG7_F
+	class launch_O_Titan_F;
+	class PB_M57_Pilum : launch_O_Titan_F
 	{
 		author = "1stmeu";
 		model = "\PR_UNSC\pilum\m57_pilum.p3d";
@@ -213,28 +202,6 @@ class cfgWeapons
 		reloadAction = "MEU_Reload_M57_Pilum";
 		magazineReloadTime = 2;
 		maxZeroing = 2000;
-		class OpticsModes
-		{
-			class irons
-			{
-				opticsID = 1;
-				useModelOptics = 0;
-				useExternalOptic = 1;
-				opticsPPEffects[] = {};
-				opticsZoomMin = 0.375;
-				opticsZoomMax = 1.25;
-				opticsZoomInit = 0.75;
-				visionMode[] = {};
-				opticsFlare = 0;
-				opticsDisablePeripherialVision = 0;
-				distanceZoomMin = 200;
-				distanceZoomMax = 300;
-				cameraDir = "look";
-				discreteDistance[] = { 200,300 };
-				discreteDistanceInitIndex = 0;
-				discreteDistanceCameraPoint[] = { "eye_200","eye_300" };
-			};
-		};
 		class GunParticles
 		{
 			class effect1
@@ -245,76 +212,9 @@ class cfgWeapons
 			};
 		};
 		modes[] = { "Single","TopDown" };
-		class Single : Mode_SemiAuto
-		{
-			ace_missileGuidance_attackProfile = "JAV_DIR";
-			displayName = "Direct Attack";
-			textureType = "direct";
-			sounds[] = { "StandardSound" };
-			class BaseSoundModeType {};
-			class StandardSound : BaseSoundModeType
-			{
-				begin1[] = { "A3\Sounds_F\arsenal\weapons\Launchers\RPG32\rpg32",1.99526,1,1500 };
-				soundBegin[] = { "begin1",1 };
-				soundSetShot[] = { "Launcher_RPG7_Shot_SoundSet","Launcher_RPG7_Tail_SoundSet" };
-			};
-			recoil = "recoil_single_law";
-			aiRateOfFire = 7;
-			aiRateOfFireDistance = 600;
-			minRange = 10;
-			minRangeProbab = 0.7;
-			midRange = 400;
-			midRangeProbab = 0.8;
-			maxRange = 1000;
-			maxRangeProbab = 0.1;
-			reloadTime = 0.75;
-		};
-		class TopDown : Single
-		{
-			ace_missileGuidance_attackProfile = "JAV_TOP";
-			displayName = "Top-down Attack";
-			textureType = "topDown";
-		};
+
 		muzzles[] = { "this", };
-		class WeaponSlotsInfo : WeaponSlotsInfo
-		{
-			allowedslots[] = { 901 };
-			mass = 150;
-			class CowsSlot
-			{
-				compatibleitems[] = { "meu_optic_pilum" };
-				displayname = "Optics Slot";
-				linkproxy = "\A3\data_f\proxies\weapon_slots\TOP";
-				scope = 2;
-				iconPosition[] = { 0.45,0.3 };
-				iconScale = 0.2;
-				iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
-				iconPinpoint = "Center";
-			};
-			class PointerSlot : PointerSlot
-			{
-				iconPosition[] = { 0.2,0.45 };
-				iconScale = 0.25;
-				iconPicture = "\A3\Weapons_F\Data\UI\attachment_side.paa";
-				iconPinpoint = "Center";
-			};
-		};
 		picture = "\PR_UNSC\pilum\data\icon\Pilum_Arsenal_Image_Standard.paa";
-
-
-		ace_javelin_enabled = 1;
-		weaponInfoType = "ACE_RscOptics_javelin";
-		modelOptics = "\z\ace\addons\javelin\data\reticle_titan.p3d";
-		canLock = 0;
-		lockingTargetSound[] = { "", 0, 1 };
-		lockedTargetSound[] = { "", 0, 1 };
-
-		irLaserEnd = "laser dir";
-		irLaserPos = "laser pos";
-		laser = 0;
-		lockAcquire = 0;
-		modes[] = { "Single","TopDown" };
-		weaponLockSystem = 2;
 
 	};
 
@@ -387,11 +287,20 @@ class CfgAmmo
 
 	class PB_M57_Pilum_Cluster_HE : ACE_Javelin_FGM148
 	{
+		airlock = 0;
+		irLock = 1;
+		missileKeepLockedCone = 160;
+		missileLockCone = 4.5;
+		missileLockMaxDistance = 2000;
+		missileLockMaxSpeed = 35;
+		missileLockMinDistance = 50;
+		missileManualControlCone = 45;
+		nvLock = 0;
+		weaponLockSystem = "2 + 16";
+		whistleDist = 4;
+		whistleonfire = 1;
 
 
-		hit = 50;
-		indirectHit = 25;
-		indirectHitRange = 4;
 		CraterEffects = "ATMissileCrater";
 		effectsmissile = "EmptyEffect";
 		explosionEffects = "GrenadeExplosion";

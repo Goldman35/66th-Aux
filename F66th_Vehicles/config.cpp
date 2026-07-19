@@ -332,6 +332,7 @@ class CfgVehicles
 			};
 		};
 		armor = 750;
+		hasDriver = -1;
 	};
 
 	class DMNS_M511_Springbok_AA;
@@ -379,6 +380,7 @@ class CfgVehicles
 			};
 		};
 		armor = 750;
+		hasDriver = -1;
 	};
 
 	//Silverback a115 base 250 updated
@@ -514,6 +516,8 @@ class CfgVehicles
 			{
 				class ViewOptics;
 				class ViewGunner;
+				class CommanderOptics;
+
 			};
 		};
 		class HitPoints;
@@ -887,7 +891,6 @@ class CfgVehicles
 
 	};
 
-
 	//Basilisk
 	class B_MBT_01_arty_F;
 	class PB_Basilisk_155mm : B_MBT_01_arty_F
@@ -959,7 +962,184 @@ class CfgVehicles
 		textureList[] = {"color66th",1};
 	};
 
+	//m12b warthog
+
+	class FNDRY_M12B_LAAG;
+	class PB_M12_LAAG : FNDRY_M12B_LAAG {
+		author = "F66th Pebbles";
+		displayName = "Driverless Warthog (Laag)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Cars";
+		hasDriver = -1;
+	};
+
+	class FNDRY_M12B_Gauss;
+	class PB_M12_Gauss : FNDRY_M12B_Gauss {
+		author = "F66th Pebbles";
+		displayName = "Driverless Warthog (Gauss)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Cars";
+		hasDriver = -1;
+	};
+
+	class FNDRY_M12B_AA;
+	class PB_M12_AA : FNDRY_M12B_AA {
+		author = "F66th Pebbles";
+		displayName = "Driverless Warthog (AA)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Cars";
+		hasDriver = -1;
+	};
+
+	//Wyvern
+	class TIOW_CadianChimAuto_836 : Tank_F
+	{
+		class Turrets : Turrets
+		{
+			class MainTurret : NewTurret {};
+		};
+	};
+
+	class TIOW_CadianWyvern_836 : TIOW_CadianChimAuto_836
+	{
+		class Turrets : Turrets
+		{
+			class MainTurret : MainTurret {};
+		};
+	};
+	class PB_Orochi_WMS : TIOW_CadianWyvern_836
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName = "Orochi";
+		model = "APCs\ImpGuard\Hydra\TIOW_Wyvern.p3d";
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Artillery";
+		artilleryScanner = 1;
+		transportSoldier = 0;
+		class Turrets : Turrets
+		{
+			class MainTurret : MainTurret
+			{
+				gunnerName = "Turret Gunner";
+				weapons[] = { "TIOW_StormShard_Mortar" };
+				magazines[] = { "TIOW_StormShard_Mag" };
+				body = "turret";
+				gun = "mainGun";
+				artilleryScanner = 1;
+				outGunnerMayFire = 0;
+				isPersonTurret = 0;
+				minElev = -6;
+				maxElev = 90;
+				initElev = 0;
+				minTurn = -360;
+				maxTurn = 360;
+				initTurn = 0;
+				elevationMode = 3;
+				initCamElev = 0;
+				minCamElev = -65;
+				maxCamElev = 65;
+				gunnerOutOpticsEffect[] = {};
+				gunnerOpticsEffect[] = {};
+				gunnerForceOptics = 1;
+				primaryGunner = 1;
+				gunnerOpticsModel = "APCs\AutocannonOptic.p3d";
+				gunnerOutOpticsModel = "";
+				memoryPointGunnerOptics = "gunnerview";
+				memoryPointGun[] = { "BottomLeft_muzzle","BottomRight_muzzle","TopLeft_muzzle","TopRight_muzzle" };
+				gunBeg = "MainChamber";
+				gunEnd = "MainMuzzle";
+				animationSourceBody = "MainTurret";
+				animationSourceGun = "mainGun";
+				viewGunnerInExternal = 1;
+				forceHideGunner = 1;
+				forceHideCommander = 1;
+				proxyType = "CPGunner";
+				proxyIndex = 8;
+				gunnerLeftHandAnimName = "";
+				gunnerRightHandAnimName = "";
+				class HitPoints
+				{
+					class HitTurret
+					{
+						armor = 1.25;
+						material = -1;
+						name = "vez";
+						visual = "commander_turret_hit";
+						passThrough = 0.0;
+						minimalHit = 0.175;
+						explosionShielding = 0.1;
+						radius = 0.33;
+					};
+					class HitGun
+					{
+						armor = 0.25;
+						material = -1;
+						name = "otochlaven";
+						visual = "commander_gun_hit";
+						passThrough = 0.0;
+						minimalHit = 0.175;
+						explosionShielding = 0.1;
+						radius = 0.23;
+					};
+				};
+			};
+		};
+		hiddenSelections[] = { "HULL_TEX","markings","Hydra_camo" };
+		hiddenSelectionsTextures[] = { "APCs\Data\Textures\Chimera836th_co.paa","APCs\Data\Textures\ChimeraInsigniaCadian836_ca.paa","apcs\data\textures\TIOW_Hydra836_co.paa" };
+	};
 
 
+	//Vehicles of terror
+		class PB_M12_Stormshard : FNDRY_M12B_LAAG {
+			author = "F66th Pebbles";
+			displayName = "I'm not sorry";
+			scope = 2;
+			scopeCurator = 2;
+			side = 1;
+			faction = "PB_Bluefor_Faction";
+			editorCategory = "PB_Bluefor_F";
+			editorSubcategory = "EdSubcat_Cars";
+	};
+		class PB_M12_TIOW : FNDRY_M12B_LAAG {
+			author = "F66th Pebbles";
+			displayName = "40k warthog";
+			scope = 2;
+			scopeCurator = 2;
+			side = 1;
+			faction = "PB_Bluefor_Faction";
+			editorCategory = "PB_Bluefor_F";
+			editorSubcategory = "EdSubcat_Cars";
+		};
+		class TIOW_Centaur_01_base;
+		class PB_CadianCentaur_Trim : TIOW_Centaur_01_base {
+			author = "F66th Pebbles";
+			displayName = "Trim's Command Vehicle";
+			scope = 2;
+			scopeCurator = 2;
+			side = 1;
+			faction = "PB_Bluefor_Faction";
+			editorCategory = "PB_Bluefor_F";
+			editorSubcategory = "EdSubcat_APCs";
 
+
+			enginePower = 100;
+			eakTorque = 14496;
+			armor = 9999;
+		};
 };
