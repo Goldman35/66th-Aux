@@ -19,6 +19,11 @@ class CfgPatches
 			"PB_MBT",
 			"PB_CadianCentaur_Trim",
 			"PB_Orochi_WMS",
+			"PB_Falcon_Abbadon_DAP",
+			"PB_M12_LAAG",
+			"PB_M12_Gauss",
+			"PB_M12_AA",
+			"PB_M12_LRV",
 		};
 		weapons[] = {};
 		requiredVersion = 1.62;

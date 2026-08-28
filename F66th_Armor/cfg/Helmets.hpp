@@ -629,6 +629,86 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     };
 
+///
+    class PB_CH252_Helmet_Apprentice : PB_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Apprentice Helmet";
+        model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+        picture = ""; //TODO: Update this
+        hiddenSelections[] =
+        {
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eye Piece
+            "camo5", // Eye Piece Glass
+            "camo6", // Visor Glasses
+            "camo7", // Vac Seal
+            "Camo8", // Face Module Chin
+            "Camo9", // Closed Visor
+            //    "Helmet",
+            //    "NVGMount",
+            //    "HelmetStrap",
+                "EyePiece",
+                "EyePieceGlass",
+                "VisorGlasses",
+                "VaccumCollar",
+                "Helmet_Chin",
+                "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Newbies\Apprentice_TrooperHelmet.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Newbies\Apprentice_TrooperHelmet.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Newbies\Apprentice_TrooperHelmet.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
+                "camo7", // Vac Seal
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
+                //    "Helmet",
+                //    "NVGMount",
+                //    "HelmetStrap"
+                    "EyePiece",
+                    "EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_Base_TrooperHelmet_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+                "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+            };
+        };
+        class XtdGearInfo; 
+    };
+
 /// Abbadon
     class PB_HREOD_Helmet_Abbadon : PB_Spartan_Helmet_Base
     {
@@ -840,7 +920,7 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         class XtdGearInfo
         {
-            model = "PB_Asmodeus_Helmets";
+            model = "PB_Abbadon_Helmets";
             Variant = "Marine";
         };
     };
@@ -1395,67 +1475,66 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Cerberus : PB_CH252_Helmet_Base
     {
-        scope = 1;
-        scopeArsenal = 1;
+        scope = 2;
+        scopeArsenal = 2;
         displayName = "[F66th] Cerberus Helmet";
         model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
         picture = ""; //TODO: Update this
         hiddenSelections[] =
         {
-            "Camo1", // Helmet
-            "Camo2", // NVG Mount
-            "Camo3", // Helmet Strap
-            "Camo4", // Eye Piece
-            "Camo5", // Eye Piece Glass
-            "Camo6", // Visor Glasses
-            "Camo7", // Vaccum Collar
-            "Camo8", // Helmet Chin
+            "camo1", // Helmet
+            "camo2", // NVG Mount
+            "camo3", // Helmet Strap
+            "camo4", // Eye Piece
+            "camo5", // Eye Piece Glass
+            "camo6", // Visor Glasses
+            "camo7", // Vac Seal
+            "Camo8", // Face Module Chin
             "Camo9", // Closed Visor
-            "Helmet",
-            "NVGMount",
-            "HelmetStrap",
-            "EyePiece",
-            "EyePieceGlass",
-            "VisorGlasses",
-            "VaccumCollar",
-            "Helmet_Chin",
-            "Closed_Visor"
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Helmet_CO.paa",
-            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Helmet_CO.paa",
-            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Helmet_CO.paa",
-            "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
-            "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
-            "F66th_Armor\Hellwalkers\Helmets\Leviathan\Leviathan_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Base\VacSeal_Base.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
-        };
-        class ItemInfo : ItemInfo
-        {
-            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-            hiddenSelections[] =
-            {
-                "Camo1", // Helmet
-                "Camo2", // NVG Mount
-                "Camo3", // Helmet Strap
-                "Camo4", // Eye Piece
-                "Camo5", // Eye Piece Glass
-                "Camo6", // Visor Glasses
-                "Camo7", // Vaccum Collar
-                "Camo8", // Helmet Chin
-                "Camo9", // Closed Visor
-                "Helmet",
-                "NVGMount",
-                "HelmetStrap",
+            //    "Helmet",
+            //    "NVGMount",
+            //    "HelmetStrap",
                 "EyePiece",
                 "EyePieceGlass",
                 "VisorGlasses",
                 "VaccumCollar",
                 "Helmet_Chin",
                 "Closed_Visor"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Marine_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Marine_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Cerberus\Cerberus_Marine_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\PB_Innie_HelmetAccessories_A_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\VaccumCollar\Base\VacSeal_Base_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa",
+            "F66th_Armor\data\Innies\Helmet\SealedVisor\Blue_Visor\Base\FaceModule_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+            hiddenSelections[] =
+            {
+                "camo1", // Helmet
+                "camo2", // NVG Mount
+                "camo3", // Helmet Strap
+                "camo4", // Eye Piece
+                "camo5", // Eye Piece Glass
+                "camo6", // Visor Glasses
+                "camo7", // Vac Seal
+                "Camo8", // Face Module Chin
+                "Camo9", // Closed Visor
+                //    "Helmet",
+                //    "NVGMount",
+                //    "HelmetStrap"
+                    "EyePiece",
+                    "EyePieceGlass",
+                    "VisorGlasses",
+                    "VaccumCollar",
+                    "Helmet_Chin",
+                    "Closed_Visor"
             };
             hiddenSelectionsTextures[] =
             {
@@ -1533,8 +1612,8 @@ class PB_Spartan_Helmet_Base : ItemCore
     };
     class PB_CH252_Helmet_Leviathan: PB_CH252_Helmet_Base
     {
-    scope=1;
-    scopeArsenal=1;
+    scope=2;
+    scopeArsenal=2;
     displayName="[F66th] Tanker Helmet";
     model="MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
     picture=""; //TODO: Update this
@@ -1826,7 +1905,7 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
         class XtdGearInfo
         {
-            model = "PB_Mammon_Helmets";
+            model = "PB_Lilith_Helmets";
             Variant = "Marine";
         };
     };

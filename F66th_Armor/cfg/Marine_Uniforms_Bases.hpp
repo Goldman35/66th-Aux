@@ -513,3 +513,181 @@ class PB_Leviathan_Heavy_BDU : PB_Marine_BDU_Base
         "F66th_Armor\Hellwalkers\Uniforms\Leviathan\PB_Leviathan_Shoulders_CO.paa"
     };
 };
+
+///Apprentice BDU
+class PB_Apprentice_NS_BDU : PB_Marine_BDU_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    UniformClass = "MA_Marine_BDU_NS";
+    model = "MA_Armor\data\Uniforms\Marine\Marine_Uniform.p3d";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //     "Uni_Upper",
+        //     "Uni_Lower",
+        //     "Uni_Collar",
+        //     "Armor_Underpad",
+        //     "Armor_Straps",
+        //     "Armor_Upper",
+        //     "Armor_Lower",
+               "Shoulders_Lower1",
+               "Shoulders_Lower2",
+               "Shoulders_Upper"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperCollar.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_Padding.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperStraps.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa"
+    };
+};
+class PB_Apprentice_Light_BDU : PB_Marine_BDU_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    UniformClass = "MA_Marine_BDU_Light";
+    model = "MA_Armor\data\Uniforms\Marine\Marine_Uniform.p3d";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //     "Uni_Upper",
+        //     "Uni_Lower",
+        //     "Uni_Collar",
+        //     "Armor_Underpad",
+        //     "Armor_Straps",
+        //     "Armor_Upper",
+        //     "Armor_Lower",
+               "Shoulders_Lower1",
+               "Shoulders_Lower2",
+               //     "Shoulders_Upper"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperCollar.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_Padding.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperStraps.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa"
+    };
+};
+class PB_Apprentice_Medium_BDU : PB_Marine_BDU_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    UniformClass = "MA_Marine_BDU_Medium";
+    model = "MA_Armor\data\Uniforms\Marine\Marine_Uniform.p3d";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //     "Uni_Upper",
+        //     "Uni_Lower",
+        //     "Uni_Collar",
+        //     "Armor_Underpad",
+        //     "Armor_Straps",
+        //     "Armor_Upper",
+        //     "Armor_Lower",
+               "Shoulders_Lower1",
+               //     "Shoulders_Lower2",
+               //     "Shoulders_Upper"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperCollar.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_Padding.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperStraps.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa"
+    };
+};
+class PB_Apprentice_Heavy_BDU : PB_Marine_BDU_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    UniformClass = "MA_Marine_BDU_Heavy";
+    model = "MA_Armor\data\Uniforms\Marine\Marine_Uniform.p3d";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    hiddenSelections[] =
+    {
+        "Camo1",
+        "Camo2",
+        "Camo3",
+        "Camo4",
+        "Camo5",
+        "Camo6",
+        "Camo7",
+        "Camo8",
+        "Camo9",
+        "Camo10",
+        //     "Uni_Upper",
+        //     "Uni_Lower",
+        //     "Uni_Collar",
+        //     "Armor_Underpad",
+        //     "Armor_Straps",
+        //     "Armor_Upper",
+        //     "Armor_Lower",
+        //     "Shoulders_Lower1",
+               "Shoulders_Lower2",
+               //     "Shoulders_Upper"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerBDU.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperCollar.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_Padding.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperStraps.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_UpperArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_LowerArmor.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa",
+        "F66th_Armor\Hellwalkers\Uniforms\Newbies\Apprentice_TrooperShoulders.paa"
+    };
+};

@@ -17,20 +17,131 @@ class CfgPatches
 					"A3_Weapons_F",
 					"A3_Soft_F_Exp",
 					"A3_Armor_F_Beta",
-					"A3_Soft_F"
+					"A3_Soft_F",
+					"CBRN_Weapons",
+					"Misriah_Armory_Weapons"
 				};
 		weapons[] = 
 		{
 			"PB_90mm_Smoothbore",
+			"PB_M57_Pilum",
+			"PB_GRL_45",
+			"PB_RGL_45"
+
 		};
 	};
 };
 
+class Rifle;
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-
+class MuzzleSlot;
+class CowsSlot;
+class PointerSlot;
+class UnderBarrelSlot;
+class bipod_01_F_blk;
+class single_medium_optics1;
+class WeaponSlotsInfo;
 class OPTRE_CowsSlot_Rail;
+
+class CfgAmmo
+{
+	class ACE_Javelin_FGM148;
+
+	class PB_M57_Pilum_Cluster_HE : ACE_Javelin_FGM148
+	{
+		airlock = 0;
+		irLock = 1;
+		missileKeepLockedCone = 160;
+		missileLockCone = 4.5;
+		missileLockMaxDistance = 2000;
+		missileLockMaxSpeed = 35;
+		missileLockMinDistance = 50;
+		missileManualControlCone = 45;
+		nvLock = 0;
+		weaponLockSystem = "2 + 16";
+		whistleDist = 4;
+		whistleonfire = 1;
+
+
+		CraterEffects = "ATMissileCrater";
+		effectsmissile = "EmptyEffect";
+		explosionEffects = "GrenadeExplosion";
+		explosionSoundEffect = "EmptyEffect";
+		ace_frag_enabled = 0;
+		ace_frag_classes[] = {};
+		ace_frag_metal = 0;
+		class EventHandlers
+		{
+			ammoHit = "[['MEU_M57_Pilum_Cluster_HE_Trigger',[0,0,0],0,0],_this] remoteExec ['aux_1stMEU_fnc_submunition_trigger_here',2];";
+		};
+	};
+
+	class SmokeShell;
+	class PB_CW_base : SmokeShell
+	{
+		model = "PHAN_CW\CBRN_Weapons\models\Blue_PHEN_ChemGrenade.p3d";
+		dangerRadiusHit = -1;
+		suppressionRadiusHit = 20;
+		typicalSpeed = 22;
+		cost = 40;
+		explosive = 1e-07;
+		deflecting = 15;
+		explosionTime = 4;
+		timeToLive = 25;
+		grenadeBurningSound[] = {};
+		aiAmmoUsageFlags = "64";
+		smokeColor[] = { 0,0,0,0 };
+		effectsSmoke = "";
+		whistleDist = 0;
+		grenadeFireSound[] = {};
+		PHEN_ChemNade = 1;
+	};
+	class PB_CS_gas_40mm : PB_CW_base
+	{
+		simulation = "shotSmokeX";
+		model = "\A3\weapons_f\ammo\UGL_slug";
+		warheadName = "CS";
+		CBRN_isProjectile = 1;
+		CBRN_chemicalType = 0;
+		airFriction = -0.001;
+		fuseDistance = 3;
+		access = 3;
+		deflecting = 5;
+		deflectionSlowDown = 1;
+		explosionTime = 2;
+		hit = 0.5;
+		indirectHit = 0;
+		indirectHitRange = 0.2;
+		dangerRadiusHit = -1;
+		suppressionRadiusHit = -1;
+		typicalspeed = 22;
+
+	};
+	class PB_Asx_gas_40mm : PB_CS_gas_40mm
+	{
+		simulation = "shotSmokeX";
+		model = "\A3\weapons_f\ammo\UGL_slug";
+		warheadName = "Asphx";
+		CBRN_isProjectile = 1;
+		CBRN_chemicalType = 1;
+		airFriction = -0.001;
+		fuseDistance = 3;
+		access = 3;
+		deflecting = 5;
+		deflectionSlowDown = 1;
+		explosionTime = 2;
+		hit = 0.5;
+		indirectHit = 0;
+		indirectHitRange = 0.2;
+		dangerRadiusHit = -1;
+		suppressionRadiusHit = -1;
+		typicalspeed = 22;
+	};
+
+
+};
 
 class cfgWeapons
 {
@@ -218,17 +329,173 @@ class cfgWeapons
 
 	};
 
-
-
-
-};
-
-class CfgMagazineWells
-{
-	class PB_M57_Pilum_Magwell
+	class Rifle_Base_F : Rifle
 	{
-		offensive[] = { "Pb_M57_Pilum_HEAT_Mag","PB_M57_Pilum_HE_Mag","PB_M57_Pilum_Cluster_HE_Mag","PB_M57_Pilum_AP_Mag" };
+		class WeaponSlotsInfo;
+		class GunParticles;
 	};
+
+	class MA_GRL_45;
+
+	class PB_GRL_45 : MA_GRL_45
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		author = "Misriah Armory Dev Team & MSGDI";
+		model = "\MA_Weapons\data\GRL_45.p3d";
+		displayName = "[F66th] GRL-45 (CW)";
+		descriptionShort = "Rotary Grenade Launcher";
+		baseWeapon = "MA_GRL_45";
+		hiddenSelections[] = { "camo1","camo2","camo3" };
+		hiddenSelectionsTextures[] = { "\MA_Weapons\data\GRL45\GL_Black_co.paa","\MA_Weapons\data\GRL45\GL_Black2_co.paa","\MA_Weapons\data\GRL45\GL_Sight_ca.paa" };
+		changeFiremodeSound[] = { "A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.31622776,1,5 };
+		reloadMagazineSound[] = { "A3\Sounds_F\arsenal\weapons\UGL\Reload_UGL",0.56234133,1,10 };
+		magazines[] = {};
+		magazineWell[] = { "PB_40mm_M203_6rnds" };
+		aimTransitionSpeed = 0.7;
+		magazineReloadSwitchPhase = 0.5;
+	};
+	class PB_RGL_45 : Rifle_Base_F
+	{
+		optics = 0;
+		scope = 2;
+		scopeArsenal = 2;
+		ace_overheating_mrbs = 3000000000;
+		ACE_Overheating_SlowdownFactor = 0;
+		ACE_Overheating_JamChance = 0;
+		ACE_Overheating_Dispersion = 0;
+		ACE_overheating_allowSwapBarrel = 0;
+		author = "Misriah Armory Dev Team & MSGDI";
+		model = "\MA_Weapons\data\GRL_45.p3d";
+		displayName = "[F66th] GRL-45 Rotary Grenade Launcher";
+		descriptionShort = "Rotary Grenade Launcher";
+		cursor = "GL_Crosshair";
+		picture = "\MA_Weapons\data\GRL45\UI\GRL45_icon_ca.paa";
+		handAnim[] = { "OFP2_ManSkeleton","MA_Weapons\data\anim\GRL45.rtm" };
+		hiddenSelections[] = { "camo1","camo2","camo3" };
+		hiddenSelectionsTextures[] = { "\MA_Weapons\data\GRL45\GL_Black_co.paa","\MA_Weapons\data\GRL45\GL_Black2_co.paa","\MA_Weapons\data\GRL45\GL_Sight_ca.paa" };
+		ace_clearJamAction = "GestureReloadGRL45";
+		reloadAction = "GestureReloadGRL45";
+		changeFiremodeSound[] = { "A3\Sounds_F\arsenal\weapons\UGL\Firemode_ugl",0.31622776,1,5 };
+		reloadMagazineSound[] = { "A3\Sounds_F\arsenal\weapons\UGL\Reload_UGL",0.56234133,1,10 };
+		magazines[] = {};
+		magazineWell[] = { "PB_40mm_M203_6rnds" };
+		modes[] = { "Single" };
+		class Single : Mode_SemiAuto
+		{
+			sounds[] = { "StandardSound" };
+			class BaseSoundModeType
+			{
+				closure1[] = { "A3\Sounds_F\arsenal\weapons\UGL\Closure_UGL",1,1,10 };
+				soundClosure[] = { "closure1",1 };
+			};
+			class StandardSound : BaseSoundModeType
+			{
+				begin1[] = { "MA_Weapons\data\GRL45\GRL45_Fire.ogg",1.5,1,1800 };
+				begin2[] = { "MA_Weapons\data\GRL45\GRL45_Fire.ogg",1.5,1.015,1800 };
+				begin3[] = { "MA_Weapons\data\GRL45\GRL45_Fire.ogg",1.5,0.985,1800 };
+				begin4[] = { "MA_Weapons\data\GRL45\GRL45_Fire.ogg",1.5,1.01,1800 };
+				begin5[] = { "MA_Weapons\data\GRL45\GRL45_Fire.ogg",1.5,0.995,1800 };
+				soundBegin[] = { "begin1",0.2,"begin2",0.2,"begin3",0.2,"begin4",0.2,"begin5",0.2 };
+			};
+			reloadTime = 0.075;
+			dispersion = 0.0002909;
+			minRange = 2;
+			minRangeProbab = 0.3;
+			midRange = 250;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.04;
+		};
+		ffMagnitude = 0.1;
+		ffFrequency = 1;
+		ffCount = 1;
+		dispersion = 0.007;
+		cartridgePos = "";
+		cartridgeVel = "";
+		drySound[] = { "A3\sounds_f\weapons\Other\dry_1",0.01,1 };
+		class OpticsModes
+		{
+			class Iron
+			{
+				opticsID = 1;
+				opticsDisplayName = "";
+				useModelOptics = 0;
+				opticsPPEffects[] = {};
+				opticsFlare = 0;
+				opticsDisablePeripherialVision = 0;
+				opticsZoomMin = 0.25;
+				opticsZoomMax = 1.25;
+				opticsZoomInit = 0.75;
+				memoryPointCamera = "eye";
+				visionMode[] = {};
+				discretefov[] = {};
+				discreteDistance[] = { 50 };
+				discreteDistanceInitIndex = 0;
+				distanceZoomMin = 200;
+				distanceZoomMax = 200;
+				discreteInitIndex = 0;
+				cameraDir = "";
+			};
+			class Indirect
+			{
+				opticsID = 2;
+				opticsDisplayName = "";
+				useModelOptics = 0;
+				opticsPPEffects[] = {};
+				opticsFlare = 0;
+				opticsDisablePeripherialVision = 0;
+				opticsZoomMin = 0.25;
+				opticsZoomMax = 1.25;
+				opticsZoomInit = 0.75;
+				visionMode[] = {};
+				discretefov[] = {};
+				cameraDir = "opticview";
+				memoryPointCamera = "GRL_eye100m";
+				discreteDistance[] = { 100,150,200,250,300,350,400 };
+				discreteDistanceCameraPoint[] = { "GRL_100m","GRL_150m","GRL_200m","GRL_250m","GRL_300m","GRL_350m","GRL_400m" };
+				discreteDistanceInitIndex = 0;
+				distanceZoomMin = 100;
+				distanceZoomMax = 400;
+				discreteInitIndex = 0;
+			};
+		};
+		aimTransitionSpeed = 0.7;
+		magazineReloadSwitchPhase = 0.5;
+		maxRecoilSway = 0.0125;
+		swayDecaySpeed = 1.25;
+		useModelOptics = 0;
+		useExternalOptic = 0;
+		muzzlePos = "usti_granatometu";
+		muzzleEnd = "konec_granatometu";
+		class CowsSlot {};
+		class WeaponSlotsInfo : WeaponSlotsInfo
+		{
+			mass = 120;
+			class CowsSlot : CowsSlot
+			{
+				compatibleItems[] = {};
+			};
+			class PointerSlot : PointerSlot
+			{
+				compatibleItems[] = {};
+			};
+			class UnderBarrelSlot : UnderBarrelSlot
+			{
+				compatibleItems[] = {};
+			};
+		};
+		class GunParticles : GunParticles
+		{
+			class effect1
+			{
+				effectName = "GrenadeLauncherCloud";
+				positionName = "usti_granatometu";
+				directionName = "konec_granatometu";
+			};
+		};
+	};
+
 };
 
 class CfgMagazines
@@ -278,40 +545,79 @@ class CfgMagazines
 		picture = "\PR_UNSC\pilum\data\icon\AP.paa";
 	};
 
+	class 1Rnd_HE_Grenade_shell;
+
+	// riot/base
+	class PB_40mm_riot_6rnd : 1Rnd_HE_Grenade_shell
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		author = "F66th Pebbles";
+		ammo = "PB_CS_gas_40mm";
+		displayName = "[F66th] 6 Round Riot gas canisters(40mm)";
+		displayNameShort = "Riot";
+		descriptionShort = "6rnd irritant";
+		count = 6;
+		mass = 24;
+	};
+	class PB_40mm_riot_12rnd : 1Rnd_HE_Grenade_shell
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		author = "F66th Pebbles";
+		ammo = "PB_CS_gas_40mm";
+		displayName = "[F66th] 12 Round Riot gas canisters(40mm)";
+		displayNameShort = "Riot";
+		descriptionShort = "12rnd irritant";
+		count = 12;
+		mass = 48;
+	};
+	//Asphyxiant
+	class PB_40mm_asphyx_6rnd : PB_40mm_riot_6rnd
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		ammo = "PB_ASX_gas_40mm";
+		displayName = "[F66th] 6 Round Asphyxiant gas canisters(40mm)";
+		displayNameShort = "Asphyxiant";
+		descriptionShort = "6rnd chokeout";
+	};
+	class PB_40mm_asphyx_12rnd : PB_40mm_riot_12rnd
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		ammo = "PB_ASX_gas_40mm";
+		displayName = "[F66th] 12 Round Asphyxiant gas canisters(40mm)";
+		displayNameShort = "Asphyxiant";
+		descriptionShort = "12rnd chokeout";
+	};
 };
 
-
-class CfgAmmo
+class CfgMagazineWells
 {
-	class ACE_Javelin_FGM148;
-
-	class PB_M57_Pilum_Cluster_HE : ACE_Javelin_FGM148
+	class PB_40mm_M203_6rnds
 	{
-		airlock = 0;
-		irLock = 1;
-		missileKeepLockedCone = 160;
-		missileLockCone = 4.5;
-		missileLockMaxDistance = 2000;
-		missileLockMaxSpeed = 35;
-		missileLockMinDistance = 50;
-		missileManualControlCone = 45;
-		nvLock = 0;
-		weaponLockSystem = "2 + 16";
-		whistleDist = 4;
-		whistleonfire = 1;
-
-
-		CraterEffects = "ATMissileCrater";
-		effectsmissile = "EmptyEffect";
-		explosionEffects = "GrenadeExplosion";
-		explosionSoundEffect = "EmptyEffect";
-		ace_frag_enabled = 0;
-		ace_frag_classes[] = {};
-		ace_frag_metal = 0;
-		class EventHandlers
-		{
-			ammoHit = "[['MEU_M57_Pilum_Cluster_HE_Trigger',[0,0,0],0,0],_this] remoteExec ['aux_1stMEU_fnc_submunition_trigger_here',2];";
+		MA_GL_Magazines[] = 
+		{ 
+			"GRL45_6rnd_HE",
+			"GRL45_6rnd_HEDP",
+			"GRL45_6rnd_Whistle",
+			"GRL45_6rnd_Smoke_White",
+			"GRL45_6rnd_Smoke_Red",
+			"GRL45_6rnd_Smoke_Green",
+			"GRL45_6rnd_Flare_White",
+			"GRL45_6rnd_Flare_Green",
+			"GRL45_6rnd_Flare_Red",
+			"GRL45_6rnd_Flare_Yellow",
+			"GRL45_6rnd_Flare_CIR",
+			"PB_40mm_asphyx_12rnd",
+			"PB_40mm_asphyx_6rnd",
+			"PB_40mm_riot_12rnd",
+			"PB_40mm_riot_6rnd"
 		};
 	};
-
+	class PB_M57_Pilum_Magwell
+	{
+		offensive[] = { "Pb_M57_Pilum_HEAT_Mag","PB_M57_Pilum_HE_Mag","PB_M57_Pilum_Cluster_HE_Mag","PB_M57_Pilum_AP_Mag" };
+	};
 };

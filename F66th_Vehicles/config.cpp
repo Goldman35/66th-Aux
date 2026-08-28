@@ -31,6 +31,52 @@ class CfgPatches
 class CfgVehicles
 {
 	class textureSources;
+
+	class LandVehicle;
+	class Car : LandVehicle
+	{
+		class Hitpoints;
+		class NewTurret;
+	};
+	class Car_F : Car
+	{
+		class AnimationSources
+		{
+			class HitLFWheel;
+			class HitRFWheel;
+			class HitBody;
+			class HitEngine;
+			class HitLF2Wheel;
+			class HitRF2Wheel;
+			class Gatling;
+			class HitGlass1;
+			class Gatling_flash;
+		};
+		class HitPoints /// we want to use hitpoints predefined for all cars
+		{
+			class HitEngine;
+			class HitLFWheel;
+			class HitLF2Wheel;
+			class HitRFWheel;
+			class HitRF2Wheel;
+			class HitBody;
+			class HitFuel;
+			class HitGlass1;
+		};
+		class EventHandlers;
+		class Turrets
+		{
+			class MainTurret :NewTurret
+			{
+				class ViewOptics;
+				class ViewGunner;
+			};
+		};
+	};
+
+
+
+
 	//Springbok
 
 	class DMNS_M511_Springbok_APC;
@@ -456,7 +502,125 @@ class CfgVehicles
 		editorCategory = "PB_Bluefor_F";
 		editorSubcategory = "EdSubcat_Helicopters";
 
+		hiddenSelectionsTextures[] = 
+		{ 
+			"F66th_Vehicles\data\Falcon\Falcon_main.paa",
+			"F66th_Vehicles\data\Falcon\Falcon_attachments.paa",
+			"\optre_vehicles_air\falcon\data\falcon_interior_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\decal\unsc_var2\falcon_decal_ca.paa"
+		};
+
+
+		class UserActions
+		{
+			class polarize
+			{
+				userActionID = 50;
+				displayName = "<img image='\OPTRE_FunctionsLibrary\vehicle_glass_polarize\icons\polarize.paa' size='2' /> Polarize";
+				displayNameDefault = "<img image='\OPTRE_FunctionsLibrary\vehicle_glass_polarize\icons\polarize.paa' size='2.5' />";
+				position = "";
+				priority = 1.5;
+				radius = 1.8;
+				animPeriod = 2;
+				onlyForplayer = 0;
+				showWindow = 1;
+				condition = "((this getVariable['OPTRE_Glass_Polarized',0]) == 0) && ((missionNamespace getVariable ['bis_fnc_moduleRemoteControl_unit', player]) isEqualTo (driver this))";
+				statement = "[this,'camoGlass','\OPTRE_Vehicles_Air\Falcon\data\Polarized\Falcon_Glass_ca.paa','\OPTRE_Vehicles_Air\Falcon\data\Falcon_Glass_ca.paa','\OPTRE_Vehicles_Air\Falcon\data\Polarized\Falcon_Glass_Polarized.rvmat','\OPTRE_Vehicles_Air\Falcon\data\Falcon_Glass.rvmat',0] call OPTRE_fnc_vehicle_glass_toggle_polarize;";
+			};
+			class depolo : polarize
+			{
+				userActionID = 51;
+				displayName = "<img image='\OPTRE_FunctionsLibrary\vehicle_glass_polarize\icons\depolarize.paa' size='2' /> Depolarize";
+				displayNameDefault = "<img image='\OPTRE_FunctionsLibrary\vehicle_glass_polarize\icons\depolarize.paa' size='2.5' />";
+				condition = "((this getVariable['OPTRE_Glass_Polarized',0]) == 1) && ((missionNamespace getVariable ['bis_fnc_moduleRemoteControl_unit', player]) isEqualTo (driver this))";
+				statement = "[this,'camoGlass','\OPTRE_Vehicles_Air\Falcon\data\Polarized\Falcon_Glass_ca.paa','\OPTRE_Vehicles_Air\Falcon\data\Falcon_Glass_ca.paa','\OPTRE_Vehicles_Air\Falcon\data\Polarized\Falcon_Glass_Polarized.rvmat','\OPTRE_Vehicles_Air\Falcon\data\Falcon_Glass.rvmat',0] call OPTRE_fnc_vehicle_glass_toggle_polarize;";
+			};
+			class CabinOpen
+			{
+				userActionID = 52;
+				displayName = "Open Cabin";
+				displayNameDefault = "Open Cabin";
+				textToolTip = "Open Cabin";
+				position = "cargo_door_handle";
+				showWindow = 0;
+				radius = 150;
+				priority = 4;
+				onlyForPlayer = 0;
+				condition = "((this animationPhase ""cockpit_door"" < 0.5) AND (this animationPhase ""cockpit_slide"" < 0.5) AND (alive this) AND (player in [driver this]))";
+				statement = "this animate [""cockpit_door"",1]; this animate [""cockpit_slide"",1];";
+				animPeriod = 5;
+			};
+			class CabinClose : CabinOpen
+			{
+				userActionID = 53;
+				displayName = "Close Cabin";
+				displayNameDefault = "Close Cabin";
+				textToolTip = "Close Cabin";
+				condition = "((this animationPhase ""cockpit_door"" > 0.5) AND (this animationPhase ""cockpit_slide"" > 0.5) AND (alive this) AND (player in [driver this]))";
+				statement = "this animate [""cockpit_door"",0]; this animate [""cockpit_slide"",0];";
+			};
+			class cyclePIP
+			{
+				userActionID = 54;
+				displayName = "<img image='\OPTRE_FunctionsLibrary\Falcon_PIP\icons\cycle.paa' size='2'/> <t color='#61a2c9' >Cycle Camera</t>";
+				displayNameDefault = "<img image='\OPTRE_FunctionsLibrary\Falcon_PIP\icons\cycle.paa' size='2.5' />";
+				position = "";
+				priority = 1.5;
+				radius = 1.8;
+				animPeriod = 2;
+				onlyForplayer = 0;
+				showWindow = 1;
+				condition = "((alive this) AND (player in [driver this]))";
+				statement = "[this] call OPTRE_fnc_falcon_pip_change_next;";
+			};
+			class togglePip : cyclePIP
+			{
+				userActionID = 55;
+				displayName = "<img image='\OPTRE_FunctionsLibrary\Falcon_PIP\icons\toggle.paa' size='2'/> <t color='#ddd400' >Toggle  Camera</t>";
+				displayNameDefault = "<img image='\OPTRE_FunctionsLibrary\Falcon_PIP\icons\toggle.paa' size='2.5' />";
+				statement = "[this] call OPTRE_fnc_falcon_pip_toggle;";
+			};
+			class AirbrakeEngage
+			{
+				userActionID = 56;
+				priority = 10;
+				position = "";
+				showWindow = 0;
+				radius = 100000;
+				onlyforPlayer = 0;
+				animPeriod = 5;
+				displayName = "ENGAGE AIRBRAKES";
+				displayNameDefault = "ENGAGE AIRBRAKES";
+				textToolTip = "ENGAGE AIRBRAKES";
+				condition = "(!(this getvariable [""OPTRE_Thruster_EngagedStatus"",false])) AND (player == driver this) AND (alive this) AND ((speed this) > 100)";
+				statement = "0 = this spawn OPTRE_fnc_AirbrakeEngage";
+			};
+		};
 		armor = 90;
+	};
+	class PB_Falcon_Abbadon_DAP : PB_Falcon_Support_DAP {
+		author = "F66th Pebbles";
+		displayName = "Falcon Abbadon, DAP";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Helicopters";
+
+		hiddenSelectionsTextures[] =
+		{
+			"F66th_Vehicles\data\Falcon\Falcon_main_Abbadon.paa",
+			"\OPTRE_Vehicles_Air\falcon\data\falcon_attachments_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_interior_co.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\falcon_glass_ca.paa",
+			"\optre_vehicles_air\falcon\data\decal\unsc_var2\falcon_decal_ca.paa"
+		};
+
+		armor = 89;
 	};
 
 	//Split's Pelican (Foundries)
@@ -501,8 +665,6 @@ class CfgVehicles
 
 	//Scorpian MBT a850
 
-
-	class LandVehicle;
 	class Tank : LandVehicle
 	{
 		class NewTurret;
@@ -964,43 +1126,83 @@ class CfgVehicles
 
 	//m12b warthog
 
-	class FNDRY_M12B_LAAG;
-	class PB_M12_LAAG : FNDRY_M12B_LAAG {
+	class FNDRY_M12B_LRV;
+	class PB_M12_LRV : FNDRY_M12B_LRV {
 		author = "F66th Pebbles";
-		displayName = "Driverless Warthog (Laag)";
+		displayName = "[F66th] Warthog";
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
 		faction = "PB_Bluefor_Faction";
 		editorCategory = "PB_Bluefor_F";
 		editorSubcategory = "EdSubcat_Cars";
-		hasDriver = -1;
+
+		hiddenSelectionsTextures[] = {
+			"F66th_Vehicles\data\m12\M12B_Body.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_bottom_co.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_interior_co.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_details_co.paa"
+		};	 /// we could use any texture to cover the car
+	};
+
+	class FNDRY_M12B_LAAG;
+	class PB_M12_LAAG : FNDRY_M12B_LAAG {
+		author = "F66th Pebbles";
+		displayName = "[F66th] Warthog (Laag)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "PB_Bluefor_Faction";
+		editorCategory = "PB_Bluefor_F";
+		editorSubcategory = "EdSubcat_Cars";
+
+		hiddenSelectionsTextures[] = {
+			"F66th_Vehicles\data\m12\M12B_Body.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_bottom_co.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_interior_co.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\M12B_details_co.paa",
+			"foundries\fndry_light_vehicles\M12B\textures\Turrets\M46_LAAG\M46_LAAG_co.paa"
+		};
 	};
 
 	class FNDRY_M12B_Gauss;
 	class PB_M12_Gauss : FNDRY_M12B_Gauss {
 		author = "F66th Pebbles";
-		displayName = "Driverless Warthog (Gauss)";
+		displayName = "[F66th] Warthog (Gauss)";
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
 		faction = "PB_Bluefor_Faction";
 		editorCategory = "PB_Bluefor_F";
 		editorSubcategory = "EdSubcat_Cars";
-		hasDriver = -1;
+
+		hiddenSelectionsTextures[] = {
+		"F66th_Vehicles\data\m12\M12B_Body.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_bottom_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_interior_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_details_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\Turrets\M68_Gauss\M68_Gauss_co.paa"
+		};
 	};
 
 	class FNDRY_M12B_AA;
 	class PB_M12_AA : FNDRY_M12B_AA {
 		author = "F66th Pebbles";
-		displayName = "Driverless Warthog (AA)";
+		displayName = "[F66th] Warthog (AA)";
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
 		faction = "PB_Bluefor_Faction";
 		editorCategory = "PB_Bluefor_F";
 		editorSubcategory = "EdSubcat_Cars";
-		hasDriver = -1;
+
+		hiddenSelectionsTextures[] = {
+		"F66th_Vehicles\data\m12\M12B_Body.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_bottom_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_interior_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\M12B_details_co.paa",
+		"foundries\fndry_light_vehicles\M12B\textures\Turrets\M79_MLRS\M79_MLRS_co.paa"
+		};
 	};
 
 	//Wyvern
@@ -1106,7 +1308,11 @@ class CfgVehicles
 
 
 	//Vehicles of terror
-		class PB_M12_Stormshard : FNDRY_M12B_LAAG {
+
+
+
+		class PB_M12_Stormshard : FNDRY_M12B_LAAG 
+		{
 			author = "F66th Pebbles";
 			displayName = "I'm not sorry";
 			scope = 2;
@@ -1115,7 +1321,64 @@ class CfgVehicles
 			faction = "PB_Bluefor_Faction";
 			editorCategory = "PB_Bluefor_F";
 			editorSubcategory = "EdSubcat_Cars";
-	};
+			class Turrets
+				{
+				class CargoGunner_1;
+				class MainTurret
+					{
+					LODTurnedOut = 1100;
+					LODTurnedIn = 1100;
+					LODOpticsIn = 1100;
+					LODOpticsOut = 1100;
+					ejectDeadGunner = 1;
+					minElev = -12;
+					maxElev = 30; //45
+					minTurn = -360;
+					maxTurn = 360;
+					initTurn = 0;
+					proxyIndex = 6;
+					body = "mainturret";
+					gun = "maingun";
+					turretAxis = "OsaVeze";
+					maxHorizontalRotSpeed = 1.75;
+					maxVerticalRotSpeed = 1.5;
+					gunAxis = "Osa Hlavne";
+					gunBeg = "Usti hlavne";
+					gunEnd = "konec hlavne";
+					gunnerAction = "FNDRY_LAAG_gunner";
+					gunnerInAction = "FNDRY_LAAG_gunner";
+					gunnerGetInAction = "GetInMRAP_01";
+					gunnerGetOutAction = "GetOutMRAP_01";
+					gunnerName = "Gunner";
+					soundServo[] = { "A3\Sounds_F\vehicles\armor\noises\servo_best", db 1, 1.0,50 };
+					stabilizedInAxes = 3;
+					outGunnerMayFire = 1;
+					inGunnerMayFire = 1;
+					commanding = 1;
+					primaryGunner = 1;
+					hideWeaponsGunner = 1;
+					memoryPointsGetInGunner = "Gunner_dir";
+					memoryPointsGetInGunnerDir = "gunner";
+					gunnerLeftHandAnimName = "OtocHlaven";
+					gunnerRightHandAnimName = "OtocHlaven";
+					memoryPointGun = "usti hlavne";
+					weapons[] = { "TIOW_StormShard_Mortar" };
+					magazines[] = { "TIOW_StormShard_Mag" };
+					memoryPointGunnerOptics = "gunnerview";
+					memoryPointGunnerOutOptics = "gunnerview";
+					gunnerOpticsShowCursor = 1;
+					castGunnerShadow = 1;
+					startEngine = 1;
+					enableManualFire = 0;
+					turretInfoType = "RscWeaponZeroing";
+					gunnerOpticsModel = "a3\weapons_f\Reticle\optics_empty";
+					gunnerOutOpticsModel = "a3\weapons_f\Reticle\optics_empty"; // for turned out position
+					gunnerForceOptics = 0;
+					hasGunner = 1;
+					gunnerCompartments = "Compartment1";
+					};
+				};
+			};
 		class PB_M12_TIOW : FNDRY_M12B_LAAG {
 			author = "F66th Pebbles";
 			displayName = "40k warthog";
@@ -1139,7 +1402,81 @@ class CfgVehicles
 
 
 			enginePower = 100;
-			eakTorque = 14496;
+			peakTorque = 14496;
 			armor = 9999;
+
+		};
+
+		class PB_CadianCentaur_TestTrim : PB_CadianCentaur_Trim
+		{
+			displayName = "Test Command Vehicle";
+			class Turrets
+			{
+				class MainTurret
+				{
+					gunnerName = "Turret Gunner";
+					weapons[] = { "TIOW_StormShard_Mortar" };
+					magazines[] = { "TIOW_StormShard_Mag" };
+					body = "turret";
+					gun = "mainGun";
+					artilleryScanner = 1;
+					outGunnerMayFire = 0;
+					isPersonTurret = 0;
+					minElev = -6;
+					maxElev = 90;
+					initElev = 0;
+					minTurn = -360;
+					maxTurn = 360;
+					initTurn = 0;
+					elevationMode = 3;
+					initCamElev = 0;
+					minCamElev = -65;
+					maxCamElev = 65;
+					gunnerOutOpticsEffect[] = {};
+					gunnerOpticsEffect[] = {};
+					gunnerForceOptics = 1;
+					primaryGunner = 1;
+					gunnerOpticsModel = "APCs\AutocannonOptic.p3d";
+					gunnerOutOpticsModel = "";
+					memoryPointGunnerOptics = "gunnerview";
+					memoryPointGun[] = { "BottomLeft_muzzle","BottomRight_muzzle","TopLeft_muzzle","TopRight_muzzle" };
+					gunBeg = "MainChamber";
+					gunEnd = "MainMuzzle";
+					animationSourceBody = "MainTurret";
+					animationSourceGun = "mainGun";
+					viewGunnerInExternal = 1;
+					forceHideGunner = 1;
+					forceHideCommander = 1;
+					proxyType = "CPGunner";
+					proxyIndex = 8;
+					gunnerLeftHandAnimName = "";
+					gunnerRightHandAnimName = "";
+					class HitPoints
+					{
+						class HitTurret
+						{
+							armor = 1.25;
+							material = -1;
+							name = "vez";
+							visual = "commander_turret_hit";
+							passThrough = 0.0;
+							minimalHit = 0.175;
+							explosionShielding = 0.1;
+							radius = 0.33;
+						};
+						class HitGun
+						{
+							armor = 0.25;
+							material = -1;
+							name = "otochlaven";
+							visual = "commander_gun_hit";
+							passThrough = 0.0;
+							minimalHit = 0.175;
+							explosionShielding = 0.1;
+							radius = 0.23;
+						};
+					};
+				};
+			};
 		};
 };

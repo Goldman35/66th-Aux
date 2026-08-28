@@ -472,18 +472,7 @@ class XtdGearModels
                     "ODST",
                     "Marine"
                 };
-                class PBxtd_EVA_Helmet_Cerberus
-                {
-                    label = "EVA";
-                };
-                class PBxtd_HRODST_Helmet_Cerberus
-                {
-                    label = "ODST";
-                };
-                class PBxtd_CH252_Helmet_Cerberus
-                {
-                    label = "Marine";
-                };
+
             };
         };
             class PB_Leviathan_Helmets
@@ -693,7 +682,8 @@ class XtdGearModels
             {
                 values[] =
                 {
-                    "ODST"
+                    "ODST",
+                    "EVA"
                 };
             };
         };

@@ -57,7 +57,7 @@ class PB_M56S_Rucksack_Abbadon : PB_M56S_Rucksack
 class PB_M56S_Rucksack_Asmo : PB_M56S_Rucksack
 {
     displayName = "[F66th] M56S Rucksack Asmo (Base)";
-    maximumLoad = 400;
+    maximumLoad = 750;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -111,7 +111,7 @@ class PB_M56S_Rucksack_Belphagor : PB_M56S_Rucksack
 class PB_M56S_Rucksack_Cerberus : PB_M56S_Rucksack
 {
     displayName = "[F66th] M56S Rucksack Cerberus (Base)";
-    maximumLoad = 600;
+    maximumLoad = 800;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -282,6 +282,7 @@ class PB_M56S_Rucksack_Abbadon_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Asmo_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] M56S Rucksack Asmodeus (LR)";
+    maximumLoad = 750;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -333,7 +334,7 @@ class PB_M56S_Rucksack_Belphagor_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Cerberus_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] M56S Rucksack Cerberus (LR)";
-    maximumLoad = 600;
+    maximumLoad = 800;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -455,6 +456,7 @@ class PB_M56S_Rucksack_Trim_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Nyquil_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] pack of Nyquil";
+    maximumLoad = 7500;
     hiddenSelections[] =
     {
         "camo1", // Bag
@@ -472,6 +474,7 @@ class PB_M56S_Rucksack_Nyquil_Radio : PB_M56S_Rucksack_Radio
 class PB_M56S_Rucksack_Pebbles_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] PebPack";
+    maximumLoad = 250000;
     hiddenSelections[] =
     {
         "camo1", // Bag

@@ -193,3 +193,78 @@ class PB_Leviathan_BDU_Heavy : U_B_CombatUniform_mcam
         modelSides[] = { 6 };
     };
 };
+
+///Apprentice
+class PB_Apprentice_BDU_NS : U_B_CombatUniform_mcam
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Apprentice BDU (NS)";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    class ItemInfo : UniformItem
+    {
+        uniformModel = "-";
+        uniformClass = "PB_Apprentice_NS_BDU";
+        containerClass = "Supply150";
+        mass = 10;
+        uniformType = "Neopren";
+        modelSides[] = { 6 };
+    };
+};
+class PB_Apprentice_BDU_Light : U_B_CombatUniform_mcam
+{
+
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Apprentice BDU (Light)";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    class ItemInfo : UniformItem
+    {
+        uniformModel = "-";
+        uniformClass = "PB_Apprentice_Light_BDU";
+        containerClass = "Supply150";
+        mass = 10;
+        uniformType = "Neopren";
+        modelSides[] = { 6 };
+    };
+};
+class PB_Apprentice_BDU_Medium : U_B_CombatUniform_mcam
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Apprentice BDU (Medium)";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    class ItemInfo : UniformItem
+    {
+        uniformModel = "-";
+        uniformClass = "PB_Apprentice_Medium_BDU";
+        containerClass = "Supply150";
+        mass = 10;
+        uniformType = "Neopren";
+        modelSides[] = { 6 };
+    };
+};
+class PB_Apprentice_BDU_Heavy : U_B_CombatUniform_mcam
+{
+    scope = 2;
+    scopeArsenal = 2;
+    author = "F66th Pebbles";
+    displayName = "[F66th] Apprentice BDU (Heavy)";
+    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+    picture = "\MA_Armor\data\Icons\H3_ODST_Uniform.paa";
+    class ItemInfo : UniformItem
+    {
+        uniformModel = "-";
+        uniformClass = "PB_Apprentice_Heavy_BDU";
+        containerClass = "Supply150";
+        mass = 10;
+        uniformType = "Neopren";
+        modelSides[] = { 6 };
+    };
+};
