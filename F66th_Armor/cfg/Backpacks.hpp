@@ -331,6 +331,23 @@ class PB_M56S_Rucksack_Belphagor_Radio : PB_M56S_Rucksack_Radio
         "F66th_Armor\Hellwalkers\Backpacks\Belphegor_Backpack_CO.paa"
     };
 };
+class PB_M56S_Rucksack_Bee_Radio : PB_M56S_Rucksack_Radio
+{
+    displayName = "[F66th] M56S Rucksack arty (LR)";
+    hiddenSelections[] =
+    {
+        "camo1", // Bag
+        "camo2", // Radio
+        "camo3", // Straps
+        //      "Radio"
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "F66th_Armor\Hellwalkers\Backpacks\Bee_Backpack_CO.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Attachments\Backpack_Radio_ODST_co.paa",
+        "F66th_Armor\Hellwalkers\Backpacks\Bee_Backpack_CO.paa"
+    };
+};
 class PB_M56S_Rucksack_Cerberus_Radio : PB_M56S_Rucksack_Radio
 {
     displayName = "[F66th] M56S Rucksack Cerberus (LR)";

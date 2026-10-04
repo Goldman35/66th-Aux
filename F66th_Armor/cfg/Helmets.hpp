@@ -1418,6 +1418,36 @@ class PB_Spartan_Helmet_Base : ItemCore
         };
     };
 
+/// Beezlebub
+    class PB_HRODST_Helmet_Bee :PB_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] M56S-R Helmet";
+        model = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+        picture = "\PB_Armor\data\Icons\F66th.paa";
+
+        class XtdGearInfo
+        {
+            model = "PB_Bee_Helmets";
+            Variant = "ODST";
+        };
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Bee\Bee_HR_ODST_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Bee\Bee_HR_ODST_Visor_co.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
+        };
+    };
+
 /// Cerberus
     class PB_EVA_Helmet_Cerberus : PB_Spartan_Helmet_Base
     {
@@ -2387,6 +2417,136 @@ class PB_Spartan_Helmet_Base : ItemCore
             Variant = "Commando";
         };
     };
+    class PB_CQC_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] CQC";
+        model = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_CQC_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_CQC_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\CQC\CQC_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "CQC";
+        };
+    };
+    class PB_HREOD_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] EOD Reach";
+        model = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_EOD_R_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_EOD_R_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\HR_EOD\HR_EOD_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "HR EOD";
+        };
+    };
+    class PB_EVA_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] EVA";
+        model = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_EVA_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_EVA_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\EVA\EVA_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "EVA";
+        };
+    };
+    class PB_Grenadier_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Grenadier";
+        model = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Grenadier_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Grenadier_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Grenadier\Grenadier_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Grenadier";
+        };
+    };
+    class PB_Gungnir_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "F66th Pebbles";
+        displayName = "[F66th] Gungnir";
+        model = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+        picture = "\PB_Armor\data\Icons\F66th.paa";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Gungnir_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Gungnir\Gungnir_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Gungnir";
+        };
+    };
     class PB_HRODST_Helmet_Mammon:PB_Helmet_Base
     {
     scope=2;
@@ -2414,6 +2574,136 @@ class PB_Spartan_Helmet_Base : ItemCore
     {
         uniformModel="MA_Armor\data\Helmets\HR_ODST\HR_ODST.p3d";
     };
+    };
+    class PB_JFO_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] JFO";
+        model = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_JFO_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_JFO_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\JFO\JFO_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "JFO";
+        };
+    };
+    class PB_MP_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] MP";
+        model = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_MP_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_MP_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\MP\MP_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "MP";
+        };
+    };
+    class PB_Pilot_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Pilot";
+        model = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Pilot_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Pilot_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Pilot\Pilot_Helm.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Pilot";
+        };
+    };
+    class PB_Recon_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Recon";
+        model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Recon_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Recon_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Recon";
+        };
+    };
+    class PB_Reach_Scout_Helmet_Mammon : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Reach Scout";
+        model = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "camo1",
+            "camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Scout_r_CO.paa",
+            "F66th_Armor\Hellwalkers\Helmets\Mammon\Mammon_Scout_r_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Scout\HR_Scout_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Mammon_Helmets";
+            Variant = "Scout";
+        };
     };
     class PB_CH252_Helmet_Mammon : PB_CH252_Helmet_Base
     {
@@ -3169,6 +3459,33 @@ class PB_Spartan_Helmet_Base : ItemCore
         Variant = "Chronos";
     };
     };
+    class PB_Recon_Helmet_Chronos : PB_Spartan_Helmet_Base
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        displayName = "[F66th] Chronos Recon";
+        model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1",
+            "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+        "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_Recon_CO.paa",
+        "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_Recon_Visor_CO.paa"
+        };
+        class ItemInfo : ItemInfo
+        {
+            uniformModel = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "PB_Custom_Helmets";
+            Variant = "Chronos Recon";
+        };
+    };
+
     class PB_HREOD_Helmet_Fixer : PB_HREOD_Helmet
     {
     scope = 2;
@@ -3612,6 +3929,38 @@ class PB_Spartan_Helmet_Base : ItemCore
         hiddenSelectionsTextures[] =
         {
                 "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa"
+        };
+        class ItemInfo
+        {
+            type = 616;
+            hmdType = 0;
+            uniformModel = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            modelOff = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+            mass = 1;
+            hiddenSelections[] =
+            {
+                "camo1"
+            };
+            hiddenSelectionsTextures[] =
+            {
+                "F66th_Armor\Hellwalkers\CustomGear\Chronos\Chronos_CBRN_CO.paa"
+            };
+        };
+    };
+    class PB_EOD_CBRN_Apprentice_NVG : NVGoggles
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "F66th Pebbles";
+        displayName = "[F66th] Apprentice CBRN Attachment (NVG)";
+        model = "MA_Armor\data\Attachments\EOD_CBRN\EOD_CBRN.p3d";
+        hiddenSelections[] =
+        {
+            "Camo1"
+        };
+        hiddenSelectionsTextures[] =
+        {
+                "F66th_Armor\Hellwalkers\Attachments\CBRN\Apprentice_CBRN_CO.paa"
         };
         class ItemInfo
         {

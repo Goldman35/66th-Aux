@@ -22,6 +22,7 @@ class XtdGearModels
                     "BC",
                     "Cat",
                     "Chronos",
+                    "Chronos Recon",
                     "Revan",
                     "Fixer",
                     "Komoto",
@@ -647,26 +648,20 @@ class XtdGearModels
             {
                 values[] =
                 {
-                    "ODST",
                     "AA",
                     "Commando",
+                    "CQC",
+                    "HR EOD",
+                    "EVA",
+                    "Grenadier",
+                    "Gungnir",
+                    "ODST",
+                    "JFO",
+                    "MP",
+                    "Pilot",
+                    "Recon",
+                    "Scout",
                     "Marine"
-                };
-                class PBxtd_HRODST_Helmet_Mammon
-                {
-                    label = "ODST";
-                };
-                class PBxtd_AA_Helmet_Mammon
-                {
-                    label = "AA";
-                };
-                class PBxtd_Commando_Helmet_Mammon
-                {
-                    label = "Commando";
-                };
-                class PBxtd_CH252_Helmet_Base_Mammon
-                {
-                    label = "Marine";
                 };
             };
         };
@@ -771,7 +766,7 @@ class XtdGearModels
 
 
         };
-            class PB_Asmodeus_Vests
+            class PB_Asmo_Vests
         {
             label = "[F66th] M56 Asmodeus Vests";
             author = "F66th Pebbles";
@@ -840,6 +835,29 @@ class XtdGearModels
 
 
         };
+            class PB_Bee_Vests
+            {
+                label = "[F66th] M56 Beezlebub Vests";
+                author = "F66th Pebbles";
+                options[] =
+                {
+                    "Variant"
+                };
+                class Variant
+                {
+                    values[] =
+                    {
+                        "M56R",
+                        "Recon",
+                        "Light",
+                        "CQC",
+                        "Sniper",
+                        "Radio"
+                    };
+                };
+
+
+            };
             class PB_Cerberus_Vests
         {
             label = "[F66th] M56 Cerberus Vests";
@@ -955,5 +973,29 @@ class XtdGearModels
 
 
         };
+            class PB_SCP_Vests
+            {
+                label = "[F66th] M56 SCP Vests";
+                author = "F66th Pebbles";
+                options[] =
+                {
+                    "Variant"
+                };
+                class Variant
+                {
+                    values[] =
+                    {
+                        "M56R",
+                        "Recon",
+                        "Light",
+                        "CQC",
+                        "Sniper",
+                        "Radio"
+                    };
+                };
+
+
+            };
+
         };
     };

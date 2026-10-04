@@ -1841,7 +1841,7 @@ class PB_Abbadon_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -1904,7 +1904,7 @@ class PB_Abbadon_M56R_Recon_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -1967,7 +1967,7 @@ class PB_Abbadon_M56R_Light_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2034,7 +2034,7 @@ class PB_Abbadon_M56R_Sniper_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2101,7 +2101,7 @@ class PB_Abbadon_M56R_CQB_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2168,7 +2168,7 @@ class PB_Abbadon_M56R_Radio_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2235,7 +2235,7 @@ class PB_Abbadon_M56R_Medic_Vest : PB_Abbadon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Abbadon\Abbadon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Abbadon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2767,7 +2767,7 @@ class PB_Azazel_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2830,7 +2830,7 @@ class PB_Azazel_M56R_Recon_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2893,7 +2893,7 @@ class PB_Azazel_M56R_Light_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -2960,7 +2960,7 @@ class PB_Azazel_M56R_Sniper_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3027,7 +3027,7 @@ class PB_Azazel_M56R_CQB_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3094,7 +3094,7 @@ class PB_Azazel_M56R_Radio_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3161,7 +3161,7 @@ class PB_Azazel_M56R_Medic_Vest : PB_Azazel_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Azazel\Azazel_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Azazel\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3230,7 +3230,7 @@ class PB_Belphegor_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3293,7 +3293,7 @@ class PB_Belphegor_M56R_Recon_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3356,7 +3356,7 @@ class PB_Belphegor_M56R_Light_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3423,7 +3423,7 @@ class PB_Belphegor_M56R_Sniper_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3490,7 +3490,7 @@ class PB_Belphegor_M56R_CQB_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3557,7 +3557,7 @@ class PB_Belphegor_M56R_Radio_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3624,7 +3624,470 @@ class PB_Belphegor_M56R_Medic_Vest : PB_Belphegor_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Belphegor\Belphegor_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Belphegor\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          "Reach_Shoulder_Radio_Right",
+                                          "Reach_Sniper_Pauldron_Left",
+                                          "Reach_Sniper_Pauldron_Right",
+                                          "Reach_CQB_Pauldron_Left",
+                                          "Reach_CQB_Pauldron_Right",
+                                          //              "Thigh_Pouch",
+                                                        "H3_Armor_Upper",
+                                                        "H3_Armor_Lower",
+                                                        //              "Reach_Armor_Upper",
+                                                        //              "Reach_Armor_Lower",
+                                                        //              "Forearm_Vent_Left",
+                                                        //              "Forearm_Vent_Right",
+                                                        //              "Canisters"
+        };
+    };
+};
+
+//Bee
+class PB_Bee_M56R_Vest : PB_Vest_Base
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Bee M56R Combat Armor";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "M56R";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          "Reach_Shoulder_Radio_Right",
+                                          "Reach_Sniper_Pauldron_Left",
+                                          "Reach_Sniper_Pauldron_Right",
+                                          "Reach_CQB_Pauldron_Left",
+                                          "Reach_CQB_Pauldron_Right",
+                                          "Thigh_Pouch",
+                                          "H3_Armor_Upper",
+                                          "H3_Armor_Lower",
+                                          //              "Reach_Armor_Upper",
+                                          //              "Reach_Armor_Lower",
+                                          //              "Forearm_Vent_Left",
+                                          //              "Forearm_Vent_Right",
+                                          //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_Recon_Vest : PB_Bee_M56R_Vest
+{
+    displayName = "[F66th] Bee M56R Combat Armor (Recon)";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "Recon";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            "Reach_Pauldron_Left",
+                            "Reach_Pauldron_Right",
+                            "Reach_Shoulder_Radio_Left",
+                            "Reach_Shoulder_Radio_Right",
+                            "Reach_Sniper_Pauldron_Left",
+                            "Reach_Sniper_Pauldron_Right",
+                            "Reach_CQB_Pauldron_Left",
+                            "Reach_CQB_Pauldron_Right",
+                            "Thigh_Pouch",
+                            "H3_Armor_Upper",
+                            "H3_Armor_Lower",
+                            //              "Reach_Armor_Upper",
+                            //              "Reach_Armor_Lower",
+                            //              "Forearm_Vent_Left",
+                            //              "Forearm_Vent_Right",
+                            //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_Light_Vest : PB_Bee_M56R_Vest
+{
+    displayName = "[F66th] Bee M56R Combat Armor (Light)";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "Light";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              "Reach_Forearm_Left",
+              "Reach_Forearm_Right",
+              "H3_Pauldron_Left",
+              "H3_Pauldron_Right",
+              "Reach_Pauldron_Left",
+              "Reach_Pauldron_Right",
+              "Reach_Shoulder_Radio_Left",
+              "Reach_Shoulder_Radio_Right",
+              "Reach_Sniper_Pauldron_Left",
+              "Reach_Sniper_Pauldron_Right",
+              "Reach_CQB_Pauldron_Left",
+              "Reach_CQB_Pauldron_Right",
+              "Thigh_Pouch",
+              "H3_Armor_Upper",
+              "H3_Armor_Lower",
+              //              "Reach_Armor_Upper",
+              //              "Reach_Armor_Lower",
+                            "Forearm_Vent_Left",
+                            "Forearm_Vent_Right",
+                            //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_Sniper_Vest : PB_Bee_M56R_Vest
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Bee M56R Combat Armor (Sniper)";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "Sniper";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            "Reach_Pauldron_Left",
+                            "Reach_Pauldron_Right",
+                            "Reach_Shoulder_Radio_Left",
+                            "Reach_Shoulder_Radio_Right",
+                            //              "Reach_Sniper_Pauldron_Left",
+                            //              "Reach_Sniper_Pauldron_Right",
+                                          "Reach_CQB_Pauldron_Left",
+                                          "Reach_CQB_Pauldron_Right",
+                                          "Thigh_Pouch",
+                                          "H3_Armor_Upper",
+                                          "H3_Armor_Lower",
+                                          //              "Reach_Armor_Upper",
+                                          //              "Reach_Armor_Lower",
+                                          //              "Forearm_Vent_Left",
+                                          //              "Forearm_Vent_Right",
+                                          //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_CQB_Vest : PB_Bee_M56R_Vest
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Bee M56R Combat Armor (CQB)";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "CQB";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            "Reach_Pauldron_Left",
+                            "Reach_Pauldron_Right",
+                            "Reach_Shoulder_Radio_Left",
+                            "Reach_Shoulder_Radio_Right",
+                            "Reach_Sniper_Pauldron_Left",
+                            "Reach_Sniper_Pauldron_Right",
+                            //              "Reach_CQB_Pauldron_Left",
+                            //              "Reach_CQB_Pauldron_Right",
+                                          "Thigh_Pouch",
+                                          "H3_Armor_Upper",
+                                          "H3_Armor_Lower",
+                                          //              "Reach_Armor_Upper",
+                                          //              "Reach_Armor_Lower",
+                                          //              "Forearm_Vent_Left",
+                                          //              "Forearm_Vent_Right",
+                                          //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_Radio_Vest : PB_Bee_M56R_Vest
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Bee M56R Combat Armor (Operator)";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Bee_Vests";
+        Variant = "Radio";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
+    };
+    class ItemInfo : ItemInfo
+    {
+        vestType = "Rebreather";
+        uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+        containerClass = "Supply200";
+        hiddenSelections[] =
+        {
+              "camo1",
+              "camo2",
+              "camo3",
+              "camo4",
+              "camo5",
+              "camo6",
+              "camo7",
+              "camo8",
+              "camo9",
+              "camo10",
+              "H3_Forearm_Left",
+              "H3_Forearm_Right",
+              //              "Reach_Forearm_Left",
+              //              "Reach_Forearm_Right",
+                            "H3_Pauldron_Left",
+                            "H3_Pauldron_Right",
+                            //              "Reach_Pauldron_Left",
+                            //              "Reach_Pauldron_Right",
+                                          "Reach_Shoulder_Radio_Left",
+                                          //              "Reach_Shoulder_Radio_Right",
+                                                        "Reach_Sniper_Pauldron_Left",
+                                                        "Reach_Sniper_Pauldron_Right",
+                                                        "Reach_CQB_Pauldron_Left",
+                                                        "Reach_CQB_Pauldron_Right",
+                                                        "Thigh_Pouch",
+                                                        "H3_Armor_Upper",
+                                                        "H3_Armor_Lower",
+                                                        //              "Reach_Armor_Upper",
+                                                        //              "Reach_Armor_Lower",
+                                                        //              "Forearm_Vent_Left",
+                                                        //              "Forearm_Vent_Right",
+                                                        //              "Canisters"
+        };
+    };
+};
+class PB_Bee_M56R_Medic_Vest : PB_Bee_M56R_Vest
+{
+    scope = 2;
+    scopeArsenal = 2;
+    displayName = "[F66th] Bee M56R Combat Armor (Medic)";
+    model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+    picture = "\PB_Armor\data\Icons\F66th.paa";
+    class XtdGearInfo
+    {
+        model = "PB_Standard_Vests";
+        Variant = "M56R_Medic";
+    };
+    hiddenSelectionsTextures[] =
+    {
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Upper_M56_CO.paa",       //camo1 (H3 Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Lower_M56_CO.paa",       //camo2 (H3 Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\H3_ODST\Bee_Pouch_CO.paa",//camo3 (Thigh Pouch)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Upper_R_co.paa",    //camo4 (Reach Upper Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Lower_R_co.paa",    //camo5 (Reach Lower Armor)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Canisters_CO.paa",      //camo6 (Canisters)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Vents_CO.paa",   //camo7 (Forearm Vents)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_Sniper_co.paa", //camo8 (Sniper Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Bee\Bee_CQB_co.paa",  //camo9 (CQB Shoulders)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -3693,7 +4156,7 @@ class PB_Cerberus_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Cerberus\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Cerberus\Cerberus_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Cerberus\Cerberus_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Cerberus\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4156,7 +4619,7 @@ class PB_Leviathan_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4219,7 +4682,7 @@ class PB_Leviathan_M56R_Recon_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4282,7 +4745,7 @@ class PB_Leviathan_M56R_Light_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4349,7 +4812,7 @@ class PB_Leviathan_M56R_Sniper_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4416,7 +4879,7 @@ class PB_Leviathan_M56R_CQB_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4483,7 +4946,7 @@ class PB_Leviathan_M56R_Radio_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4550,7 +5013,7 @@ class PB_Leviathan_M56R_Medic_Vest : PB_Leviathan_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Leviathan\Leviathan_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Leviathan\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4619,7 +5082,7 @@ class PB_Lilith_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4682,7 +5145,7 @@ class PB_Lilith_M56R_Recon_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4745,7 +5208,7 @@ class PB_Lilith_M56R_Light_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4812,7 +5275,7 @@ class PB_Lilith_M56R_Sniper_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4879,7 +5342,7 @@ class PB_Lilith_M56R_CQB_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -4946,7 +5409,7 @@ class PB_Lilith_M56R_Radio_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5013,7 +5476,7 @@ class PB_Lilith_M56R_Medic_Vest : PB_Lilith_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lilith\Lilith_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lilith\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5083,7 +5546,7 @@ class PB_Lucifer_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5146,7 +5609,7 @@ class PB_Lucifer_M56R_Recon_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5209,7 +5672,7 @@ class PB_Lucifer_M56R_Light_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5276,7 +5739,7 @@ class PB_Lucifer_M56R_Sniper_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5343,7 +5806,7 @@ class PB_Lucifer_M56R_CQB_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5410,7 +5873,7 @@ class PB_Lucifer_M56R_Radio_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5477,7 +5940,7 @@ class PB_Lucifer_M56R_Medic_Vest : PB_Lucifer_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Lucifer\Lucifer_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Lucifer\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5546,7 +6009,7 @@ class PB_Mammon_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5609,7 +6072,7 @@ class PB_Mammon_M56R_Recon_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5672,7 +6135,7 @@ class PB_Mammon_M56R_Light_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5739,7 +6202,7 @@ class PB_Mammon_M56R_Sniper_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5806,7 +6269,7 @@ class PB_Mammon_M56R_CQB_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5873,7 +6336,7 @@ class PB_Mammon_M56R_Radio_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -5940,7 +6403,7 @@ class PB_Mammon_M56R_Medic_Vest : PB_Mammon_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\Mammon\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\Mammon\Mammon_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\Mammon\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6008,7 +6471,7 @@ class PB_SCP_M56R_Vest : PB_Vest_Base
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6071,7 +6534,7 @@ class PB_SCP_M56R_Recon_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6134,7 +6597,7 @@ class PB_SCP_M56R_Light_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6201,7 +6664,7 @@ class PB_SCP_M56R_Sniper_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6268,7 +6731,7 @@ class PB_SCP_M56R_CQB_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6335,7 +6798,7 @@ class PB_SCP_M56R_Radio_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
@@ -6402,7 +6865,7 @@ class PB_SCP_M56R_Medic_Vest : PB_SCP_M56R_Vest
             "F66th_Armor\Hellwalkers\Vests\SCP\Vents_CO.paa",   //camo7 (Forearm Vents)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_Sniper_co.paa", //camo8 (Sniper Shoulders)
             "F66th_Armor\Hellwalkers\Vests\SCP\SCP_CQB_co.paa",  //camo9 (CQB Shoulders)
-            "F66th_Armor\Hellwalkers\Vests\SCP\Radio_CO.paa" //camo10 (Shoulder Radio)
+            "F66th_Armor\Hellwalkers\Vests\Base\Radio_CO.paa" //camo10 (Shoulder Radio)
     };
     class ItemInfo : ItemInfo
     {
