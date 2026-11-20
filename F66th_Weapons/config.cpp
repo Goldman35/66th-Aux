@@ -358,19 +358,19 @@ class cfgWeapons
 	class PB_M57_Pilum : launch_Titan_base
 	{
 		author = "1stmeu";
-		model = "\PR_UNSC\pilum\m57_pilum.p3d";
+		model = "\OPTRE_Weapons_AT\M57_Pilum\m57_pilum.p3d";
 		baseWeapon = "";
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
 		lockAcquire = 0;
-		handAnim[] = { "OFP2_ManSkeleton","\PR_UNSC\pilum\data\anim\handanim.rtm","Spartan_ManSkeleton","\PR_UNSC\pilum\data\anim\handanim_spartan.rtm" };
-		hiddenSelections[] = { "camoBody","camoMag" };
-		hiddenSelectionsTextures[] = { "PR_UNSC\pilum\data\Pilum_co.paa","PR_UNSC\pilum\data\PilumMag_co.paa" };
+		handAnim[] = { "OFP2_ManSkeleton","\OPTRE_Weapons_AT\M57_Pilum\data\anim\handanim.rtm","Spartan_ManSkeleton","\OPTRE_Weapons_AT\M57_Pilum\data\anim\handanim_spartan.rtm" };
+		hiddenSelections[] = { "camppilum","camopilumdecal","camoglow" };
+		hiddenSelectionsTextures[] = { "OPTRE_Weapons_AT\M57_Pilum\data\Pilum_co.paa","OPTRE_Weapons_AT\M57_Pilum\data\PilumDecal_ca.paa","OPTRE_Weapons_AT\M57_Pilum\data\glow_co.paa" };
 		magazines[] = { "PB_M57_Pilum_Cluster_HE_Mag" };
 		magazineWell[] = { "PB_M57_Pilum_Magwell" };
 		displayName = "[66th] M57 Pilum Assault Weapon";
-		reloadAction = "MEU_Reload_M57_Pilum";
+		reloadAction = "OPTRE_GestureReload_M57_AT";
 		magazineReloadTime = 3;
 		maxZeroing = 2000;
 		class GunParticles
@@ -412,7 +412,7 @@ class cfgWeapons
 		};
 
 		muzzles[] = { "this", };
-		picture = "\PR_UNSC\pilum\data\icon\Pilum_Arsenal_Image_Standard.paa";
+		picture = "\OPTRE_Weapons_AT\M57_Pilum\data\icon\Pilum_Arsenal_Image_Standard.paa";
 
 		weaponLockSystem = 2;
 

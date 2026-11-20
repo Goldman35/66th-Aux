@@ -25,6 +25,7 @@ class XtdGearModels
                     "Chronos Recon",
                     "Revan",
                     "Fixer",
+                    "Kannibal",
                     "Komoto",
                     "Navvaro",
                     "Noble",
@@ -63,6 +64,10 @@ class XtdGearModels
                 class PB_Fixer_Helmet
                 {
                     name = "Fixer";
+                };
+                class PB_Kannibal_Helmet
+                {
+                    name = "Kannibal";
                 };
                 class PB_Komoto_Helmet
                 {
@@ -576,6 +581,7 @@ class XtdGearModels
                     "Pilot",
                     "Recon",
                     "Scout",
+                    "Dark",
                     "Marine"
                 };
                 class PBxtd_AA_Helmet_Lucifer
@@ -629,6 +635,10 @@ class XtdGearModels
                 class PBxtd_Reach_Scout_Helmet_Lucifer
                 {
                     label = "Scout Reach";
+                };
+                class PBxtd_CH252_Helmet_Dark_Lucifer
+                {
+                    name = "Dark"
                 };
                 class PBxtd_CH252_Helmet_Base_Lucifer
                 {
